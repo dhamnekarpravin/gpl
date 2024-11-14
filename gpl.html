@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            /* background-color: black; */
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            /* color: white; */
+            font-family: Arial, sans-serif;
+            text-align: center;
+
+
+        }
+
+        /* Navigation section */
+        .nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            /* max-width: 800px; */
+            margin-bottom: 20px;
+            /* background: linear-gradient(to, right, #007bff, #6610f2); */
+            background: linear-gradient(90deg, red, blue);
+        }
+
+        .nav img {
+            width: 200px;
+            height: 200px;
+            border-radius: 8px;
+            border-radius: 50%;
+        }
+
+        /* Content section */
+        .cont {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            max-width: 800px;
+
+            padding: 20px;
+            border-radius: 8px;
+            background-image: url(ipl.jpeg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .cont h1 {
+            font-size: 1.5em;
+            margin: 10px 0;
+            line-height: 1.4;
+            font-family: "Delius Unicase", cursive;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 600px) {
+            .nav {
+                flex-direction: column;
+                align-items: center;
+                gap: 10px;
+            }
+
+            .nav img {
+                width: 200px;
+                height: 200px;
+            }
+
+            .cont h1 {
+                font-size: 1.2em;
+                margin: 8px 0;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav">
+        <div>
+            <img src="clg.png" alt="Logo">
+        </div>
+        <div>
+            <img src="cric.jpg" alt="Logo">
+        </div>
+    </div>
+
+    <div class="cont">
+        <h1>KLS GOGTE COLLEGE OF COMMERCE - BELGAUM</h1>
+        <h1>BACHELOR OF COMPUTER APPLICATIONS</h1>
+        <h1>GOGTE BCA PREMIER LEAGUE - 2024</h1>
+        <h1>SEASON 02</h1>
+    </div>
+
+
+</body>
+
+</html>
